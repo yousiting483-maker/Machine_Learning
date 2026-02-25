@@ -1,0 +1,22 @@
+#
+# melody，2620/2/25
+# Meldy_Hello py
+# Print Hello
+#
+
+print("Hello", name)
+print("How are you")
+name="melody"
+
+price=250
+units_sold=1200
+
+total_sales=price*units_sold
+discount=total_sales*0.05
+net_sales=total_sales-discount
+print(f"total sales:${total_sales:,}")
+print(f"Discount    : ${discount:,.2f}")
+print(f"net_sales   : ${net_sales:,.2f}")
+quarterly_profit = 85_000
+if quarterly_profit >100_000:
+print("Outstanding quarter — bonus approved.")
